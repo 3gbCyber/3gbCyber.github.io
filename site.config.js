@@ -3,9 +3,9 @@ const CONFIG = {
   profile: {
     name: "AboYaqoub",
     image: "/avatar.svg", // If you want to create your own notion avatar, check out https://notion-avatar.vercel.app
-    bio: "Well idk what I can write.",
+    bio: "Well idk what I can write",
     email: "xdfir@proton.me",
-    linkedin: "",
+    linkedin: "*",
     github: "3gbCyber",
     instagram: "",
   },
@@ -23,8 +23,8 @@ const CONFIG = {
   },
 
   // CONFIG configration (required)
-  link: "https://3gbcyber.vercel.app/",
-  since: 2022, // If leave this empty, current year will be used.
+  link: "https://3gbcyber.vercel.app",
+  since: 2023, // If leave this empty, current year will be used.
   lang: "en-US", // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES', 'ko-KR']
   ogImageGenerateURL: "https://og-image-korean.vercel.app", // The link to generate OG image, don't end with a slash
   seo: {
@@ -67,4 +67,4 @@ const CONFIG = {
   isProd: process.env.VERCEL_ENV === "production", // distinguish between development and production environment (ref: https://vercel.com/docs/environment-variables#system-environment-variables)
 }
 
-module.exports = CONFIG
+module.exports = { CONFIG }
