@@ -4,6 +4,7 @@ import {
   AiOutlineInstagram,
   AiOutlineGithub,
   AiOutlineMail,
+  AiOutlineTwitter,
   AiFillLinkedin,
 } from "react-icons/ai"
 
